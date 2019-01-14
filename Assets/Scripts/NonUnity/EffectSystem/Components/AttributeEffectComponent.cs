@@ -13,7 +13,15 @@ public class AttributeEffectComponent : EffectComponent
     // custom behaviour
     public override void Apply(EffectManager target)
     {
-        target.stats.attributes[targetAttribute].AddModifier(new AttrModifier(Value, modifierType, parentEffect)); //the stats class of the character will handle all the modifiers, via damage calculator class
-        Debug.Log(target.gameObject.name + "'s " + targetAttribute.ToString().ToLower() + " changed by " + Value + " " + modifierType.ToString().ToLower()+". Current "+ target.stats.attributes[targetAttribute].value);
+        if (target.stats.attributes.ContainsKey(targetAttribute))
+        {
+            target.stats.attributes[targetAttribute].AddModifier(new AttrModifier(Value, modifierType, parentEffect)); //the stats class of the character will handle all the modifiers, via damage calculator class
+            parentEffect.SetInputsFromSource(); //Refreshes inputs from source
+            Debug.Log(target.gameObject.name + "'s " + targetAttribute.ToString().ToLower() + " changed by " + Value + " " + modifierType.ToString().ToLower() + ". Current " + target.stats.attributes[targetAttribute].value);
+        }
+        else
+        {
+            Debug.LogWarning(targetAttribute + " not added to " + target.name + " CharacterStats. Effect eot applied.");
+        }
     }
 }

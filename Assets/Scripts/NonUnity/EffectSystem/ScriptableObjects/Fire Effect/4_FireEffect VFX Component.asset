@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a1edf2187297543a8050f65a9fb2aa, type: 3}
+  m_Name: 4_FireEffect VFX Component
+  m_EditorClassIdentifier: 
+  parentEffect: {fileID: 0}
+  applicator: 0
+  useSourceAttribute: 0
+  attribute: 0
+  damping: 1
+  sourceInput: 0
+  baseValue: 0
+  prefab: {fileID: 1912771665631386, guid: b5c330a6083cbe64bad1eb29d74fa730, type: 2}
+  offset: {x: 0, y: 0, z: 0}

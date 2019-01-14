@@ -1,5 +1,13 @@
 ﻿using System;
 
+[Serializable, Flags]
+public enum TargetType
+{
+    MONSTER = 1 << 1,
+    PLAYER = 1 << 2,
+    SELF = 1 << 3
+}
+
 [Serializable]
 public enum AttrModType
 {
@@ -15,7 +23,20 @@ public enum Attributes
     STRENGHT,
     INTELLIGENCE,
     HEALTH,
+    DMG_PHYS,
+    DMG_FIRE,
+    DMG_COLD,
+    DMG_POISON
+
 }
+
+[Serializable]
+public enum TargetingType
+{
+    UNIQUE,
+    ALL,
+}
+
 [Serializable]
 public enum EffectName
 {
@@ -34,5 +55,7 @@ public enum DamageType
 {
     FIRE,
     BURN,
-    PHYSICAL
+    PHYSICAL,
+    COLD,
+    POISON
 }

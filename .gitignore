@@ -4,6 +4,7 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+Assets/CraftPix/Downloads
 
 # Visual Studio cache directory
 .vs/

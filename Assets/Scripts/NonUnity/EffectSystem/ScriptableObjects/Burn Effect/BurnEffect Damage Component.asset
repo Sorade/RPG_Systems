@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: BurnEffect Damage Component
   m_EditorClassIdentifier: 
   parentEffect: {fileID: 0}
+  applicator: 0
   attribute: 3
   damping: 0.05
   sourceInput: 0

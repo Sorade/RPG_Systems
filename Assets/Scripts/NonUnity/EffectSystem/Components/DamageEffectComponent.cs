@@ -18,6 +18,7 @@ public class DamageEffectComponent : EffectComponent
     {
         if (!IsValueNegative())
         {
+            parentEffect.SetInputsFromSource();
             target.stats.TakeDamage(Value, type, modType); //the stats class of the character will handle all the modifiers, via damage calculator class
         }
         else

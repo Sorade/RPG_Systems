@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f06204d13b6d1b45900c66d30c58147, type: 3}
+  m_Name: _FireDamageEffect
+  m_EditorClassIdentifier: 
+  _tickInterval: 1
+  _nextTickTime: 9.624887
+  _duration: 0.1
+  isPermanent: 0
+  id: 0
+  components:
+  - {fileID: 11400000, guid: 212e296621194da46bda1905491bf670, type: 2}
+  - {fileID: 11400000, guid: cd9d33723b50dff4e8dd651377919c5d, type: 2}

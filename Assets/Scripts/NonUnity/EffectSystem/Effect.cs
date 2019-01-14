@@ -74,7 +74,7 @@ public class Effect : ScriptableObject
         }
     }
 
-    void SetInputsFromSource()
+    public void SetInputsFromSource()
         //Assigns the sourceInputs to all components that require it
     {
         for (int i = 0; i < components.Length; i++)

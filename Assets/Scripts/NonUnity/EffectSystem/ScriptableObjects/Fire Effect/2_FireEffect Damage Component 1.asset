@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 163077d65f9e2d148aff8f5fd6b5ed6b, type: 3}
+  m_Name: 2_FireEffect Damage Component 1
+  m_EditorClassIdentifier: 
+  parentEffect: {fileID: 0}
+  applicator: 0
+  useSourceAttribute: 1
+  attribute: 6
+  damping: 1
+  sourceInput: 0
+  baseValue: 0
+  type: 0
+  modType: 100

@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 
 public class EffectManager : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class EffectManager : MonoBehaviour
 
     //public enum StatusType { None, BURN, FREEZE, BLEED, POISON, PARALYZE, SLEEP, FURY, ARMOR, HASTE, REGEN, WARD, FOCUS};
 
+    [ShowInInspector, ReadOnly]
     private List<Effect> existingEffects = new List<Effect>();
     private List<EffectName> existingEffectTypes = new List<EffectName>();
 

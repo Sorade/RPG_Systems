@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: bind
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: TrollRigScaler/Bones/Hip
+    localPosition: {x: 0.0097010285, y: -0.23911825, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: TrollRigScaler/Bones/Hip/Torso
+    localPosition: {x: 0.20000549, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.034185547, w: 0.9994156}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: TrollRigScaler/Bones/Hip/Torso/Head
+    localPosition: {x: 0.11000876, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.11192638, w: 0.99371654}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: TrollRigScaler/Bones/Hip/Torso/L Arm
+    localPosition: {x: 0.20932539, y: 0.20241624, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.8809842, w: 0.4731458}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: TrollRigScaler/Bones/Hip/Torso/L Arm/L Arm Lower
+    localPosition: {x: 0.14999998, y: -0.000000074505806, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.44009367, w: 0.8979519}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: TrollRigScaler/Bones/Hip/Torso/L Arm/L Arm Lower/L Hand
+    localPosition: {x: 0.22, y: -0.000000034226105, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.47310877, w: -0.88100404}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: TrollRigScaler/Bones/Hip/Torso/R Arm
+    localPosition: {x: 0.20247574, y: -0.22263737, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.9832843, w: 0.18207681}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: TrollRigScaler/Bones/Hip/Torso/R Arm/R Arm Lower
+    localPosition: {x: 0.14999998, y: 0.000000059604645, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.03916571, w: 0.9992327}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: TrollRigScaler/Bones/Hip/Torso/R Arm/R Arm Lower/R Hand
+    localPosition: {x: 0.1900001, y: 0.00000011175871, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.17168418, w: 0.98515207}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: TrollRigScaler/Bones/Hip/L Leg
+    localPosition: {x: -0.007854284, y: 0.11118211, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.9996957, w: 0.024666624}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: TrollRigScaler/Bones/Hip/L Leg/L Leg Lower
+    localPosition: {x: 0.13000007, y: -0.000000029802322, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: TrollRigScaler/Bones/Hip/L Leg/L Leg Lower/L Foot
+    localPosition: {x: 0.06500013, y: -0.000000027939677, z: 0}
+    localRotation: {x: -0, y: -0, z: -0.4445043, w: -0.89577675}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: TrollRigScaler/Bones/Hip/R Leg
+    localPosition: {x: -0.008681097, y: -0.08643872, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.9997131, w: 0.023952058}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: TrollRigScaler/Bones/Hip/R Leg/R Leg Lower
+    localPosition: {x: 0.12000009, y: 0.000000013038516, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: TrollRigScaler/Bones/Hip/R Leg/R Leg Lower/R Foot
+    localPosition: {x: 0.086691506, y: 0.00000004141748, z: 0}
+    localRotation: {x: -0, y: -0, z: -0.6787418, w: -0.7343771}
+    localScale: {x: 1, y: 1, z: 1}

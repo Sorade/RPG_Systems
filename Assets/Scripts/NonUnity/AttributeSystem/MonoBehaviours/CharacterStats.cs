@@ -3,10 +3,22 @@ using System.Collections.Generic;
 using Sirenix.OdinInspector;
 
 public class CharacterStats : MonoBehaviour {
+
+    [Header("Gages")]
+    public AttributeHealth health;
+
+    [Header("Core Attributes")]
     public Attribute strength;
     public Attribute agility;
     public Attribute intelligence;
-    public AttributeHealth health;
+
+    [Header("Damage Attributes")]
+    public Attribute PhysicalDamage;
+    public Attribute FireDamage;
+    public Attribute ColdDamage;
+    public Attribute PoisonDamage;
+
+
     [HideInInspector]
     public Attribute testAttribute;
 
@@ -30,6 +42,12 @@ public class CharacterStats : MonoBehaviour {
         AddAttributeDictionaryEntry(agility, Attributes.AGILITY);
         AddAttributeDictionaryEntry(intelligence, Attributes.INTELLIGENCE);
         AddAttributeDictionaryEntry(health, Attributes.HEALTH);
+        AddAttributeDictionaryEntry(PhysicalDamage, Attributes.DMG_PHYS);
+        AddAttributeDictionaryEntry(FireDamage, Attributes.DMG_FIRE);
+        AddAttributeDictionaryEntry(ColdDamage, Attributes.DMG_COLD);
+        AddAttributeDictionaryEntry(PoisonDamage, Attributes.DMG_POISON);
+
+
     }
 
     void AddAttributeDictionaryEntry(Attribute attribute, Attributes expectedName)

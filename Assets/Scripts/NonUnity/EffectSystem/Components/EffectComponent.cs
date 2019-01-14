@@ -4,11 +4,12 @@ using Sirenix.OdinInspector;
 
 public class EffectComponent : ScriptableObject
 {
+    [HideInInspector]
     public Effect parentEffect;
     public EffectApplicatorType applicator;
 
     [Space]
-    public readonly bool useSourceAttribute;
+    public bool useSourceAttribute;
     [ShowIf("useSourceAttribute"), InfoBox("The source attribute value multiplied by the damping coef and added to the base value", "useSourceAttribute")]
     public Attributes attribute;
     [ShowIf("useSourceAttribute"), SerializeField]

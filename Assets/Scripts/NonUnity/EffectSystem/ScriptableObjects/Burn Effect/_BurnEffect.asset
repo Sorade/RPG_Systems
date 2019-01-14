@@ -18,3 +18,4 @@ MonoBehaviour:
   id: 0
   components:
   - {fileID: 11400000, guid: 66fba176701cdad4e8d8bf6e184416f8, type: 2}
+  - {fileID: 11400000, guid: 6e1a43b696263394e9569dbd1dc62d2e, type: 2}
